@@ -53,7 +53,7 @@ export default function Home() {
                  className={styles.linkCard}
               >
                 <div className={styles.icon}>
-                  <Image src={img} width={40} height={40} alt="icon" />
+                  <Image src={img} width={40} height={40} />
                 </div>
                 <div fontSize={13} >{title}</div>
               </a>
