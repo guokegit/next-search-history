@@ -42,7 +42,7 @@ export default function Home() {
         <Image src="/google-logo.jpeg" alt="Vercel Logo" width={400} height={100} />
         <InputGroup style={{margin: '24px 0'}}>
           <Input placeholder="在谷歌上搜索" name="search" borderRadius="20px" />
-          <InputRightAddon children={<FaMicrophone />}  borderRadius="20px" />
+          <InputRightAddon borderRadius="20px" ><FaMicrophone /></InputRightAddon>
         </InputGroup>
         <div style={{display: 'flex', flexWrap: 'wrap'}}>
           {
@@ -53,7 +53,7 @@ export default function Home() {
                  className={styles.linkCard}
               >
                 <div className={styles.icon}>
-                  <img src={img} />
+                  <Image src={img} />
                 </div>
                 <div fontSize={13} >{title}</div>
               </a>
