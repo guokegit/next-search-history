@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/core": "^1.0.0-next.2",
+    "@chakra-ui/theme": "^1.0.0-next.2",
+    "@chakra-ui/theme-tools": "^1.2.0",
+    "axios": "^0.21.3",
+    "formik": "^2.2.9",
+    "framer-motion": "^3.1.1",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "eslint": "7.32.0",
